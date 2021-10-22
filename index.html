@@ -1,0 +1,90 @@
+<html>
+    <head>
+        <link href="styles.css" rel="stylesheet">
+        <meta charset="UTF-8">
+        <title>Проект Щегловой Дарьи</title>
+    </head>
+    <body background="fon.jpg" bgcolor="dddddd" >
+        <h1>Создание сайта для инженерных классов</h1>
+        <nav> <a href="#Инфа"> информация о проекте</a>|<a href="#Таблица">таблица</a>|<a href="#ОбСвязь"> форма обратной связи </a> </nav>
+        <hr/>
+        <main class="main">
+              <h2 class="h2" id="Инфа">Информация о проекте</h2>  
+            <br> Создание сайта для инженерных классов.
+            Меня зовут Щеглова Дарья, я ученица 10В инженерного класса.
+            У нашей школы есть сайт, на котором размещена информация
+            о классах, которые в свою очередь разместили ссылки на
+            свои сайты. Но у Инженерных классов ещё нет своего сайта,
+            поэтому мне предстоит его создать, для этого мне нужно
+            было изучить HTML, CSS и JavaScript, а также придумать
+            уникальный дизайн, в чём мне помогают мои друзья в нашей команде.
+            Из задуманого я покачто изучила только HTML и CSS, а параллельно
+            продумываю что лучше разместить на нашем будущем сайте.
+              <h3 id="Таблица">таблица:</h3>
+            <table class="table" border="1">
+                <tr>
+                    <td> <b> неделя </b> </td>
+                    <td> <b> что сделано </b> </td> 
+                </tr>
+                <tr>
+                    <td> первая </td>
+                    <td> придумана идея проекта </td> 
+                </tr>
+                <tr>
+                    <td> вторая </td>
+                    <td> придумано примерное содержимое будущего сайта </td> 
+                </tr>
+                <tr>
+                    <td> третья </td>
+                    <td> Начато изучение РИС </td> 
+                </tr>
+                <tr>
+                    <td> четвёртая </td>
+                    <td> Начато изучение HTML </td> 
+                </tr>
+                <tr>
+                    <td> пятая </td>
+                    <td> Получено понимание HTML, начато изучение CSS </td> 
+                </tr>
+            </table>
+        </main>
+            <h2 class="h2" id="ОбСвязь"> форма обратной связи: </h2>
+        <div class="div">
+            <li>Со мной можно связаться через вк:
+                <br> <a target="_blank" href="https://vk.com/d.scheglova2014">Вконтакте</a>
+            </li> <br>
+            <h3>Оценить:</h3>
+            <form action="/" class="soobsheniya">
+                <label for="name">Ваше имя: </label>
+                <input type="text" id="name" placeholder="Введите имя">
+                <br>
+                <label for="email">Ваш email: </label>
+                <input type="text" id="email" placeholder="Введите email">
+                <br>
+                <label for="nomer">Ваша оценка: </label>
+                <input type="number" id="nomer" placeholder="оцение от 1 до 10">
+                <br>
+                <label for="vibor">Выберите оценку:</label>
+                <table>
+                  <td bgcolor="00ffff">
+                    <input type="radio" name="vibor" placeholder="10">0;
+                    <input type="radio" name="vibor" placeholder="10">1;
+                    <input type="radio" name="vibor" placeholder="10">2;
+                    <input type="radio" name="vibor" placeholder="10">3;
+                    <input type="radio" name="vibor" placeholder="10">4;
+                    <input type="radio" name="vibor" placeholder="10">5;
+                    <input type="radio" name="vibor" placeholder="10">6;
+                    <input type="radio" name="vibor" placeholder="10">7;
+                    <input type="radio" name="vibor" placeholder="10">8;
+                    <input type="radio" name="vibor" placeholder="10">9;
+                    <input type="radio" name="vibor" placeholder="10">10
+                  </td>
+                </table>
+                <label for="text">Сообщение: </label>
+                <textarea id="text" rows="5"></textarea>
+                <br>
+                <input class="knopka" type="submit" value="Отправить">
+            </form>
+        </div>
+    </body>
+</html>
